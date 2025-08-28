@@ -63,7 +63,7 @@ function CreateOrder() {
   if (!cart.length) return <EmptyCart />;
   return (
     <div className="flex items-center justify-center h-full">
-      <div className="w-2/3 sm:w-2/4   px-5 py-6 md:px-8 md:py-8 border-2 border-gray-200 shadow-sm rounded-md">
+      <div className="w-4/5 sm:w-2/4   px-5 py-6 md:px-8 md:py-8 border-2 border-gray-200 shadow-sm rounded-md">
         <h2 className=" font-semibold mb-2 text-center text-xl">
           Ready to order? Let's go!
         </h2>
